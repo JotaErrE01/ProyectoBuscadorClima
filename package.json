@@ -1,0 +1,22 @@
+{
+  "name": "proyectobuscarclima",
+  "version": "1.0.0",
+  "description": "Primer Proyecto usando fetch API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Jonathan Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "css-minimizer-webpack-plugin": "^2.0.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
