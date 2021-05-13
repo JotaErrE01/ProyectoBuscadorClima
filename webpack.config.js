@@ -5,6 +5,11 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: "production",
+    // watch: true,
+    watchOptions: {
+        aggregateTimeout: 200,
+        ignored: ['**/files/**/*.css', '**/node_modules'],
+    },
     entry: './src/js/index.js',
     output: {
         filename: 'app.bundle.js',
